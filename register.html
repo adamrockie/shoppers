@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="custom.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+	<div id="header">
+ 		<div id="logo"></div>
+        <div id="navigation">
+        	<ul>
+            	<li><a href="index.html">Home</a></li>
+            	<li><a href="index.html#About">About Us</a></li>
+                <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">product category</a>
+                <div class="dropdown-content">
+                	<a href="">Fashion</a>
+                    <a href="">Mobile phone</a>
+                  <a href="">Computer</a></div>
+                </li>
+                <li class="dropdown"><a href="Services.html">Services</a>
+                <div class="dropdown-content">
+                	<a href="">we buy</a>
+                    <a href="">we sell</a>
+                  <a href="">we rent</a></div>
+                </li>
+            	<li><a href="">Register</a></li>
+            	<li><a href="index.html#contact">Contact Us</a></li>
+        	</ul>
+     	</div>
+   	  <!--End of nav-->
+    </div>
+    <!--End of the logo and nav section-->
+    <div id="wrapper">
+	<section class="page-title">
+    <h2>REGISTER NOW</h2>
+    
+    </section>
+    </div>
+    
+    <section class="content">
+    	<div class="container">
+        	<h2 align="center">Sign Up</h2>
+        	<form method="post" action="" enctype="multipart/form-data" class="form-layout">
+            
+            <fieldset>
+            	<legend>Basic Information</legend>
+               <label> Name:</label><input type="text">
+               <label> Email:</label><input type="email" name="email">
+               Password:<input type="password" placeholder="Type Password" name="pass">               
+               Re-typePassword:<input type="re-type password" placeholder="Re-Type Password" name="retype pass"><br>
+                <label>Age:</label><input type="radio" name="age" value="above13">Above 13<input type="radio" name="age" value="below13">Below 13<br>
+                <label>Sex:</label><input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female<br>
+                <label>Interest:</label>
+                <input type="checkbox" name="interest[]" value="Development">Development
+                <input type="checkbox" name="interest[]" value="Design">Design
+            </fieldset>
+            <fieldset>
+            	<legend>Your profile</legend>
+                Biography:<textarea></textarea>
+                Job Role:<select name="role">
+                <optgroup label="web">
+                <option value="front-end developer">Front-end Developer</option>
+                <option value="php developer">Php developer</option>
+                <option value="word press developer">Word press Developer</option>
+                </optgroup>
+                </select>
+                </fieldset>
+                <button type="submit">sign up</button>
+            </form>
+        	
+                </div>
+            </div>
+   		</div>
+	        
+    </section>
+    </div>
+    <div id="footer">
+	  <div class="copyright">Copyright  &copy; Rockie 2017</div>
+	</div>
+</body>
+</html>
